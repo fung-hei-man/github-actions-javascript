@@ -8,7 +8,4 @@ outputs:
 
 runs:
   using: "node16"
-  main: "main.js"git add action.yml
-git pull   
-git commit -m 'add metadata for the joke action'
-git push
+  main: "main.js"
