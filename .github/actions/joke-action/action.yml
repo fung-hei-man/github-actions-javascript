@@ -2,6 +2,13 @@ name: "my joke action"
 
 description: "use an external API to retrieve and display a joke"
 
+outputs:
+  joke-output:
+    description: The resulting joke from the icanhazdadjokes API
+
 runs:
   using: "node16"
-  main: "main.js"
+  main: "main.js"git add action.yml
+git pull   
+git commit -m 'add metadata for the joke action'
+git push
